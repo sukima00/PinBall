@@ -41,5 +41,13 @@ public class ScoreScript : MonoBehaviour
         {
             score += 30;
         }
+        else if (other.gameObject.tag == "SmallStarTAg")
+        {
+            score += 20;
+        }
+        else if (other.gameObject.tag == "LargeStarTag")
+        {
+            score += 50;
+        }
     }
 }
